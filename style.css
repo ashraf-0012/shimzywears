@@ -195,6 +195,72 @@ body{
 }
 
 
+@media screen and (max-width: 768px) {
+    
+    .shimzy-container .nav-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav-bar h1 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .nav-bar ul {
+        padding: 10px 0;
+    }
+
+    .shimzy-container .main-logo {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .logo-image img {
+        width: 100%; 
+        height: auto;
+        margin: 20px 0;
+    }
+
+   
+    .shimzy-container .about-us {
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .about-us .about-text {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    
+    .shimzy-container .product-gallery {
+        grid-template-columns: 1fr; 
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .product-gallery span img {
+        height: auto;
+    }
+
+    
+    
+}
+
+
+
 
 
 
@@ -202,4 +268,17 @@ body{
 
 
  
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
