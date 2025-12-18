@@ -81,6 +81,17 @@
             transition: 0.3s;
         }
         button:hover { background-color: rgb(82, 82, 215); }
+
+
+        @media screen and (max-width: 768px) {
+            .nav-bar { flex-direction: column; text-align: center; }
+            .product-grid {
+                grid-template-columns: 1fr; /* 1 column for Phone */
+                padding: 10px;
+            }
+            .product-card img { height: 400px; } /* Larger images for phone */
+        }
+        
     </style>
 </head>
 <body>
@@ -127,4 +138,5 @@
     </div>
 
 </body>
+
 </html>
